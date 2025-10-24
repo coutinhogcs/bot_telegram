@@ -1,6 +1,54 @@
 import telebot 
+# Importe as bibliotecas novas
+from flask import Flask
+from threading import Thread
+import os # Importe 'os' para pegar a porta
 
-API_TOKEN = '8411488510:AAEOBznnlPVW1MfqXu4VP5sgk-cNYNP6i9g'
+# --- CÓDIGO DO FLASK (O "SITE FALSO") ---
+app = Flask(__name__)
+
+# Esta é a página inicial do "site"
+# O Render vai verificar se isso aqui funciona
+@app.route('/')
+def home():
+    return "Olá! Eu sou um bot e estou vivo."
+
+# Função para rodar o site
+def run_flask():
+    # Pega a porta que o Render nos dá. Se não achar, usa 8080.
+    port = int(os.environ.get('PORT', 8080))
+    app.run(host='0.0.0.0', port=port)
+
+# --- FIM DO CÓDIGO DO FLASK ---
+
+
+# --- SEU CÓDIGO DO BOT ---
+def seu_bot_principal():
+    print("Iniciando o bot do Telegram...")
+    #
+    # COLOQUE AQUI O CÓDIGO DE "START" DO SEU BOT
+    # (Exemplo: updater.start_polling(), bot.polling(), etc.)
+    # 
+    # Todo o seu código antigo do bot (funções, etc.)
+    # pode ficar aqui ou ser importado de outro arquivo.
+    # O importante é que a função que "liga" o bot esteja aqui.
+    pass # Remova isso quando colocar seu código
+
+# --- FIM DO CÓDIGO DO BOT ---
+
+
+# --- INICIALIZAÇÃO ---
+if __name__ == "__main__":
+    # 1. Cria uma "thread" para o site falso
+    flask_thread = Thread(target=run_flask)
+    
+    # 2. Inicia o site falso
+    flask_thread.start()
+    
+    # 3. Inicia o seu bot na "thread" principal
+    seu_bot_principal()
+
+API_TOKEN = 'TELEGRAM_TOKEN'
 
 bot = telebot.TeleBot(API_TOKEN)
 
