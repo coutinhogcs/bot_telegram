@@ -1,8 +1,9 @@
-import telebot 
 from flask import Flask
 from threading import Thread
 from bot_instance import bot
 import os
+import handlers_frontend
+import handlers_opcoes
 
 app = Flask(__name__)
 
