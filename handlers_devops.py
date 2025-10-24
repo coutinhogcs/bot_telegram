@@ -1,6 +1,6 @@
 from bot_instance import bot
 
-@bot.message_handler(commands=['Gupy'])
+@bot.message_handler(commands=['Gupy_DevOps'])
 def Gupy(mensagem):
   texto = """Aqui estão os links com as melhores vagas de devops na Gupy:
 
@@ -8,7 +8,7 @@ https://portal.gupy.io/job-search/term=Frontend
   """
   bot.send_message(mensagem.chat.id, texto)
 
-@bot.message_handler(commands=['Linkedin'])
+@bot.message_handler(commands=['Linkedin_DevOps'])
 def Gupy(mensagem):
   texto = """Aqui estão os links com as melhores vagas de devops na Linkedin:
 
@@ -17,7 +17,7 @@ https://www.linkedin.com/jobs/search/?currentJobId=4316797240&f_E=3%2C4&f_TPR=r8
   bot.send_message(mensagem.chat.id, texto)
 
 
-@bot.message_handler(commands=['InfoJobs'])
+@bot.message_handler(commands=['InfoJobs_DevOps'])
 def Gupy(mensagem):
   texto = """Aqui estão os links com as melhores vagas de devops na InfoJobs:
 
@@ -26,7 +26,7 @@ https://www.infojobs.com.br/vagas-de-emprego-programador+front+end-em-rio-janeir
   bot.send_message(mensagem.chat.id, texto)
 
 
-@bot.message_handler(commands=['Catho'])
+@bot.message_handler(commands=['Catho_DevOps'])
 def Gupy(mensagem):
   texto = """Aqui estão os links com as melhores vagas de devops na Catho:
 
@@ -35,7 +35,7 @@ https://www.catho.com.br/vagas/desenvolvedor-front-end/?contract_type_id%5B0%5D=
   bot.send_message(mensagem.chat.id, texto)
 
 
-@bot.message_handler(commands=['Indeed'])
+@bot.message_handler(commands=['Indeed_DevOps'])
 def Gupy(mensagem):
   texto = """Aqui estão os links com as melhores vagas de devops na Indeed:
 
@@ -44,7 +44,7 @@ https://br.indeed.com/jobs?q=desenvolvedor+front+end&l=Rio+de+Janeiro%2C+RJ&from
   bot.send_message(mensagem.chat.id, texto)
 
 
-@bot.message_handler(commands=['Glassdoor'])
+@bot.message_handler(commands=['Glassdoor_DevOps'])
 def Gupy(mensagem):
   texto = """Aqui estão os links com as melhores vagas de devops na Glassdoor:
 
@@ -53,7 +53,7 @@ https://www.glassdoor.com.br/Vaga/rio-de-janeiro-front-end-vagas-SRCH_IL.0,14_IC
   bot.send_message(mensagem.chat.id, texto)
 
 
-@bot.message_handler(commands=['Programathor'])
+@bot.message_handler(commands=['Programathor_DevOps'])
 def Gupy(mensagem):
   texto = """Aqui estão os links com as melhores vagas de devops na Programathor:
 

@@ -4,19 +4,19 @@ from bot_instance import bot
 def opcao1(mensagem):
    texto = """Opções de site para vagas FrontEnd:
 
-/Gupy
+/Gupy_Frontend
 
-/Linkedin
+/Linkedin_Frontend
 
-/InfoJobs
+/InfoJobs_Frontend
 
-/Catho
+/Catho_Frontend
 
-/Indeed
+/Indeed_Frontend
 
-/Glassdoor
+/Glassdoor_Frontend
 
-/Programathor
+/Programathor_Frontend
 
 """
    bot.reply_to(mensagem, texto)
@@ -28,19 +28,19 @@ def opcao1(mensagem):
 def opcao2(mensagem):
    texto = """Opções de site para vagas BackEnd:
 
-/Gupy
+/Gupy_Backend
 
-/Linkedin
+/Linkedin_Backend
 
-/InfoJobs
+/InfoJobs_Backend
 
-/Catho
+/Catho_Backend
 
-/Indeed
+/Indeed_Backend
 
-/Glassdoor
+/Glassdoor_Backend
 
-/Programathor
+/Programathor_Backend
 
 """
    bot.reply_to(mensagem, texto)
@@ -50,19 +50,19 @@ def opcao2(mensagem):
 def opcao3(mensagem):
    texto = """Opções de site para vagas FullStack:
 
-/Gupy
+/Gupy_FullStack
 
-/Linkedin
+/Linkedin_FullStack
 
-/InfoJobs
+/InfoJobs_FullStack
 
-/Catho
+/Catho_FullStack
 
-/Indeed
+/Indeed_FullStack
 
-/Glassdoor
+/Glassdoor_FullStack
 
-/Programathor
+/Programathor_FullStack
 
 """
    bot.reply_to(mensagem, texto)
@@ -72,19 +72,19 @@ def opcao3(mensagem):
 def opcao4(mensagem):
    texto = """Opções de site para vagas Mobile:
 
-/Gupy
+/Gupy_Mobile
 
-/Linkedin
+/Linkedin_Mobile
 
-/InfoJobs
+/InfoJobs_Mobile
 
-/Catho
+/Catho_Mobile
 
-/Indeed
+/Indeed_Mobile
 
-/Glassdoor
+/Glassdoor_Mobile
 
-/Programathor
+/Programathor_Mobile
 
 """
    bot.reply_to(mensagem, texto)
@@ -93,19 +93,19 @@ def opcao4(mensagem):
 def opcao5(mensagem):
    texto = """Opções de site para vagas Data Science:
 
-/Gupy
+/Gupy_Data-Scienc
 
-/Linkedin
+/Linkedin_Data-Scienc
 
-/InfoJobs
+/InfoJobs_Data-Scienc
 
-/Catho
+/Catho_Data-Scienc
 
-/Indeed
+/Indeed_Data-Scienc
 
-/Glassdoor
+/Glassdoor_Data-Scienc
 
-/Programathor
+/Programathor_Data-Scienc
 
 """ 
    bot.reply_to(mensagem, texto)
@@ -114,19 +114,25 @@ def opcao5(mensagem):
 def opcao6(mensagem):
    texto = """Opções de site para vagas DevOps:
 
-/Gupy
+/Gupy_DevOps
 
-/Linkedin
+/Linkedin_DevOps
 
-/InfoJobs
 
-/Catho
+/InfoJobs_DevOps
 
-/Indeed
 
-/Glassdoor
+/Catho_DevOps
 
-/Programathor
+
+/Indeed_DevOps
+
+
+/Glassdoor_DevOps
+
+
+/Programathor_DevOps
+
 
 """ 
    bot.reply_to(mensagem, texto) 
@@ -135,19 +141,19 @@ def opcao6(mensagem):
 def opcao7(mensagem):
    texto = """Opções de site para vagas Analista de Banco de Dados:
 
-/Gupy
+/Gupy_BD
 
-/Linkedin
+/Linkedin_BD
 
-/InfoJobs
+/InfoJobs_BD
 
-/Catho
+/Catho_BD
 
-/Indeed
+/Indeed_BD
 
-/Glassdoor
+/Glassdoor_BD
 
-/Programathor
+/Programathor_BD
 
 """   
    bot.reply_to(mensagem, texto)
