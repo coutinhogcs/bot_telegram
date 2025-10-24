@@ -62,8 +62,6 @@ def opcao3(mensagem):
 
 /Glassdoor_FullStack
 
-/Programathor_FullStack
-
 """
    bot.reply_to(mensagem, texto)
 
@@ -93,19 +91,19 @@ def opcao4(mensagem):
 def opcao5(mensagem):
    texto = """Opções de site para vagas Data Science:
 
-/Gupy_Data_Scienc
+/Gupy_Data_Science
 
-/Linkedin_Data_Scienc
+/Linkedin_Data_Science
 
-/InfoJobs_Data_Scienc
+/InfoJobs_Data_Science
 
-/Catho_Data_Scienc
+/Catho_Data_Science
 
-/Indeed_Data_Scienc
+/Indeed_Data_Science
 
-/Glassdoor_Data_Scienc
+/Glassdoor_Data_Science
 
-/Programathor_Data_Scienc
+/Programathor_Data_Science
 
 """ 
    bot.reply_to(mensagem, texto)

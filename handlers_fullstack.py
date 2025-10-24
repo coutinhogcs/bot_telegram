@@ -4,7 +4,7 @@ from bot_instance import bot
 def Gupy(mensagem):
   texto = """Aqui estão os links com as melhores vagas de fullstack na Gupy:
 
-https://portal.gupy.io/job-search/term=Frontend
+https://portal.gupy.io/job-search/term=FullStack&workplaceTypes[]=remote
   """
   bot.send_message(mensagem.chat.id, texto)
 
@@ -12,7 +12,7 @@ https://portal.gupy.io/job-search/term=Frontend
 def Gupy(mensagem):
   texto = """Aqui estão os links com as melhores vagas de fullstack na Linkedin:
 
-https://www.linkedin.com/jobs/search/?currentJobId=4316797240&f_E=3%2C4&f_TPR=r86400&f_WT=2&geoId=106057199&keywords=Desenvolvedor%20de%20front-end&origin=JOB_SEARCH_PAGE_JOB_FILTER&refresh=true
+https://www.linkedin.com/jobs/search/?currentJobId=4317203399&f_E=3%2C4&f_TPR=r86400&f_WT=2&geoId=106057199&keywords=Desenvolvedor%20full%20stack&origin=JOB_SEARCH_PAGE_KEYWORD_AUTOCOMPLETE&refresh=true
   """
   bot.send_message(mensagem.chat.id, texto)
 
@@ -21,7 +21,7 @@ https://www.linkedin.com/jobs/search/?currentJobId=4316797240&f_E=3%2C4&f_TPR=r8
 def Gupy(mensagem):
   texto = """Aqui estão os links com as melhores vagas de fullstack na InfoJobs:
 
-https://www.infojobs.com.br/vagas-de-emprego-programador+front+end-em-rio-janeiro-trabalho-home-office.aspx
+https://www.infojobs.com.br/vagas.aspx?palabra=programador+fullstack&provincia=182
   """
   bot.send_message(mensagem.chat.id, texto)
 
@@ -30,7 +30,7 @@ https://www.infojobs.com.br/vagas-de-emprego-programador+front+end-em-rio-janeir
 def Gupy(mensagem):
   texto = """Aqui estão os links com as melhores vagas de fullstack na Catho:
 
-https://www.catho.com.br/vagas/desenvolvedor-front-end/?contract_type_id%5B0%5D=2&contract_type_id%5B1%5D=6&work_model%5B0%5D=hybrid&work_model%5B1%5D=remote&lastDays=15
+https://www.catho.com.br/vagas/desenvolvedor-full-stack/?contract_type_id%5B0%5D=2&contract_type_id%5B1%5D=6&work_model%5B0%5D=remote&work_model%5B1%5D=hybrid&lastDays=15
   """
   bot.send_message(mensagem.chat.id, texto)
 
@@ -39,7 +39,7 @@ https://www.catho.com.br/vagas/desenvolvedor-front-end/?contract_type_id%5B0%5D=
 def Gupy(mensagem):
   texto = """Aqui estão os links com as melhores vagas de fullstack na Indeed:
 
-https://br.indeed.com/jobs?q=desenvolvedor+front+end&l=Rio+de+Janeiro%2C+RJ&fromage=14&radius=100&from=searchOnDesktopSerp&vjk=5db5966fad94153b
+https://br.indeed.com/jobs?q=desenvolvedor+full+stack&l=&fromage=14&sc=0kf%3Aattr%28DSQF7%29%3B&from=searchOnDesktopSerp&vjk=5b1fcbc35a19d23e
   """
   bot.send_message(mensagem.chat.id, texto)
 
@@ -48,15 +48,16 @@ https://br.indeed.com/jobs?q=desenvolvedor+front+end&l=Rio+de+Janeiro%2C+RJ&from
 def Gupy(mensagem):
   texto = """Aqui estão os links com as melhores vagas de fullstack na Glassdoor:
 
-https://www.glassdoor.com.br/Vaga/rio-de-janeiro-front-end-vagas-SRCH_IL.0,14_IC2402386_KO15,24.htm?fromAge=14&minRating=3.0
+  https://www.glassdoor.com.br/Vaga/rio-de-janeiro-full-stack-developer-vagas-SRCH_IL.0,14_IC2402386_KO15,35.htm?remoteWorkType=1
+  
   """
   bot.send_message(mensagem.chat.id, texto)
 
 
-@bot.message_handler(commands=['Programathor_FullStack'])
-def Gupy(mensagem):
-  texto = """Aqui estão os links com as melhores vagas de fullstack na Programathor:
+# @bot.message_handler(commands=['Programathor_FullStack'])
+# def Gupy(mensagem):
+#   texto = """Aqui estão os links com as melhores vagas de fullstack na Programathor:
 
-https://programathor.com.br/jobs-front-end/remoto
-  """
-  bot.send_message(mensagem.chat.id, texto)
+# https://programathor.com.br/jobs-front-end/remoto
+#   """
+#   bot.send_message(mensagem.chat.id, texto)
