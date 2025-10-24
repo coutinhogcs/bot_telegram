@@ -26,46 +26,130 @@ def opcao1(mensagem):
 
 @bot.message_handler(commands=['opcao2'])
 def opcao2(mensagem):
-   texto = """Aqui estão os links com as melhores vagas de BackEnd:
-https://portal.gupy.io/job-search/term=Backend&workplaceTypes[]=remote
-   """
+   texto = """Opções de site para vagas BackEnd:
+
+/Gupy
+
+/Linkedin
+
+/InfoJobs
+
+/Catho
+
+/Indeed
+
+/Glassdoor
+
+/Programathor
+
+"""
    bot.reply_to(mensagem, texto)
 
 
 @bot.message_handler(commands=['opcao3'])
 def opcao3(mensagem):
-   texto = """Aqui estão os links com as melhores vagas de FullStack:
-https://portal.gupy.io/job-search/term=Fullstack&workplaceTypes[]=remote
-   """
+   texto = """Opções de site para vagas FullStack:
+
+/Gupy
+
+/Linkedin
+
+/InfoJobs
+
+/Catho
+
+/Indeed
+
+/Glassdoor
+
+/Programathor
+
+"""
    bot.reply_to(mensagem, texto)
 
 
 @bot.message_handler(commands=['opcao4'])
 def opcao4(mensagem):
-   texto = """Aqui estão os links com as melhores vagas de Mobile:
-https://portal.gupy.io/job-search/term=Mobile&workplaceTypes[]=remote
-   """
+   texto = """Opções de site para vagas Mobile:
+
+/Gupy
+
+/Linkedin
+
+/InfoJobs
+
+/Catho
+
+/Indeed
+
+/Glassdoor
+
+/Programathor
+
+"""
    bot.reply_to(mensagem, texto)
 
 @bot.message_handler(commands=['opcao5'])
 def opcao5(mensagem):
-   texto = """Aqui estão os links com as melhores vagas de Data Science:
-https://portal.gupy.io/job-search/term=Data%20Science&workplaceTypes[]=remote
-   """ 
+   texto = """Opções de site para vagas Data Science:
+
+/Gupy
+
+/Linkedin
+
+/InfoJobs
+
+/Catho
+
+/Indeed
+
+/Glassdoor
+
+/Programathor
+
+""" 
    bot.reply_to(mensagem, texto)
 
 @bot.message_handler(commands=['opcao6'])
 def opcao6(mensagem):
-   texto = """Aqui estão os links com as melhores vagas de DevOps:
-https://portal.gupy.io/job-search/term=DevOps&workplaceTypes[]=remote
-   """ 
+   texto = """Opções de site para vagas DevOps:
+
+/Gupy
+
+/Linkedin
+
+/InfoJobs
+
+/Catho
+
+/Indeed
+
+/Glassdoor
+
+/Programathor
+
+""" 
    bot.reply_to(mensagem, texto) 
 
 @bot.message_handler(commands=['opcao7'])
 def opcao7(mensagem):
-   texto = """Aqui estão os links com as melhores vagas de Analista de Banco de Dados:
-https://portal.gupy.io/job-search/term=Analista%20de%20Banco%20de%20Dados&workplaceTypes[]=remote,on-site,hybrid
-   """   
+   texto = """Opções de site para vagas Analista de Banco de Dados:
+
+/Gupy
+
+/Linkedin
+
+/InfoJobs
+
+/Catho
+
+/Indeed
+
+/Glassdoor
+
+/Programathor
+
+"""   
    bot.reply_to(mensagem, texto)
 
 def verificar(mensagem):
