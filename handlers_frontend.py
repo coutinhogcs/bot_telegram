@@ -1,6 +1,6 @@
 from bot_instance import bot
 
-@bot.message_handler(commands=['Gupy_frontend'])
+@bot.message_handler(commands=['Gupy_Frontend'])
 def Gupy(mensagem):
   texto = """Aqui estão os links com as melhores vagas de frontend na Gupy:
 

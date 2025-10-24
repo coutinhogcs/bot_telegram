@@ -93,19 +93,19 @@ def opcao4(mensagem):
 def opcao5(mensagem):
    texto = """Opções de site para vagas Data Science:
 
-/Gupy_Data-Scienc
+/Gupy_Data_Scienc
 
-/Linkedin_Data-Scienc
+/Linkedin_Data_Scienc
 
-/InfoJobs_Data-Scienc
+/InfoJobs_Data_Scienc
 
-/Catho_Data-Scienc
+/Catho_Data_Scienc
 
-/Indeed_Data-Scienc
+/Indeed_Data_Scienc
 
-/Glassdoor_Data-Scienc
+/Glassdoor_Data_Scienc
 
-/Programathor_Data-Scienc
+/Programathor_Data_Scienc
 
 """ 
    bot.reply_to(mensagem, texto)
