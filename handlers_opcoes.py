@@ -1,5 +1,5 @@
 from bot_instance import bot
-# OPÇÕES DE VAGAS DISPONÍVEIS
+
 @bot.message_handler(commands=['opcao1'])
 def opcao1(mensagem):
    texto = """Opções de site para vagas FrontEnd:

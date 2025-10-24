@@ -2,7 +2,14 @@ from flask import Flask
 from threading import Thread
 from bot_instance import bot
 import os
+import handlers_begin
 import handlers_frontend
+import handlers_backend
+import handlers_fullstack
+import handlers_mobile
+import handlers_data_science
+import handlers_devops
+import handlers_db
 import handlers_opcoes
 
 app = Flask(__name__)
@@ -14,14 +21,6 @@ def home():
 def run_flask():
     port = int(os.environ.get('PORT', 8080))
     app.run(host='0.0.0.0', port=port)
-
-@bot.message_handler(commands=['start'])
-def opcao1(mensagem):
-   texto = f"""Olá {mensagem.chat.first_name} seja bem-vindo ao Bot de Vagas de Emprego em Tecnologia!
-Aqui você encontrará as melhores oportunidades de trabalho na área de tecnologia.
-Digite qualquer mensagem para ver as opções disponíveis.
-   """
-   bot.reply_to(mensagem, texto)
 
 
 
